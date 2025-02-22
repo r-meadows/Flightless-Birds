@@ -138,7 +138,10 @@ As you approach, the cat turns with a flick of its tail, hopping up on the garba
 
 Do you [[say something to it]] or [[follow]]? Or [[leave]], I guess.
 
-&lt;&lt;set ga(&#39;send&#39;, &#39;event&#39;, &#39;passage&#39;, &#39;loaded&#39;, &#39;step closer to cat&#39;); &gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="leave" tags="" position="750,400" size="100,100">Who cares about the stupid cat? You&#39;ve got places to go and people to be! When you get to your Business 102: Ergonomics of Flightless Birds class, you seem to walk into an empty room. You check the clock, but there should still be 20 minutes of class left. You walk in further and see that there is only one person inside, sitting in the very front row. Their back is to you, and they don&#39;t seem to be moving.
+&lt;&lt;set gtag(&#39;event&#39;, &#39;screen_view&#39;, {
+  &#39;app_name&#39;: &#39;myAppName&#39;,
+  &#39;screen_name&#39;: &#39;Home&#39;
+}); &gt;&gt;</tw-passagedata><tw-passagedata pid="5" name="leave" tags="" position="750,400" size="100,100">Who cares about the stupid cat? You&#39;ve got places to go and people to be! When you get to your Business 102: Ergonomics of Flightless Birds class, you seem to walk into an empty room. You check the clock, but there should still be 20 minutes of class left. You walk in further and see that there is only one person inside, sitting in the very front row. Their back is to you, and they don&#39;t seem to be moving.
 
 Do you [[approach them]], [[call out]], or [[leave them to it]]?
 
